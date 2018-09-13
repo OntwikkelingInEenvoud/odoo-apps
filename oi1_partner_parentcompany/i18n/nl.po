@@ -1,0 +1,50 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * oi1_partner_parentcompany
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-31 14:20+0000\n"
+"PO-Revision-Date: 2018-08-31 14:20+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: oi1_partner_parentcompany
+#: model:ir.model.fields,field_description:oi1_partner_parentcompany.field_res_partner_x_has_locations
+#: model:ir.model.fields,field_description:oi1_partner_parentcompany.field_res_users_x_has_locations
+msgid "Has different locations"
+msgstr "Heeft verschillende locaties"
+
+#. module: oi1_partner_parentcompany
+#: model:ir.model.fields,field_description:oi1_partner_parentcompany.field_res_partner_x_location_ids
+#: model:ir.model.fields,field_description:oi1_partner_parentcompany.field_res_users_x_location_ids
+#: model:ir.ui.view,arch_db:oi1_partner_parentcompany.respartner_view_form
+msgid "Locations"
+msgstr "Locaties"
+
+#. module: oi1_partner_parentcompany
+#: model:ir.model.fields,field_description:oi1_partner_parentcompany.field_res_partner_x_parent_company_id
+#: model:ir.model.fields,field_description:oi1_partner_parentcompany.field_res_users_x_parent_company_id
+msgid "Parent company"
+msgstr "Moederbedrijf"
+
+#. module: oi1_partner_parentcompany
+#: model:ir.ui.view,arch_db:oi1_partner_parentcompany.respartner_view_form
+msgid "Parent settings"
+msgstr "Instellingen moederbedrijf"
+
+#. module: oi1_partner_parentcompany
+#: model:ir.model,name:oi1_partner_parentcompany.model_res_partner
+msgid "Partner"
+msgstr "Relatie"
+
+#. module: oi1_partner_parentcompany
+#: model:ir.ui.view,arch_db:oi1_partner_parentcompany.respartner_view_form
+msgid "mother company"
+msgstr "Moederbedrijf"

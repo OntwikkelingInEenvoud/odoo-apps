@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<openerp>
+    <data>
+       <record id="oi1_partner_parentcompany.respartner_view_form" model="ir.ui.view">
+         <field name="name">oi1_partner_parentcompany.res.partner_view_form</field>
+         <field name="model">res.partner</field>
+         <field name="inherit_id" ref="account.view_partner_property_form"/>
+         <field name="arch" type="xml">        
+        
+          <field name="parent_id" position="after">
+             <field attrs="{'invisible': [('is_company','=', False),]}"
+                        name="x_parent_company_id" placeholder="mother company"/>
+          </field>          
+                  
+          
+          <field name="credit" position= "before">               
+                <field name="x_has_locations" attrs="{'invisible': [('is_company','=', False),]}" />             
+          </field>                  
+          
+                
+             <xpath expr="(//notebook)[1]" position="inside">
+                    <page
+                        attrs="{'invisible': [('x_has_locations','=', False),]}"
+                        name="Locations" string="Locations">
+                        <field name="x_location_ids">
+                            <tree string="Locations">
+                                <field name="display_name"/>
+                                <field name="street"/>
+                                <field name="city"/>
+                                <field name="country_id"/>
+                                <field name="phone"/>
+                                <field name="category_id"/>
+                            </tree>
+                        </field>
+                    </page>
+                    <page
+                        attrs="{'invisible': [('x_has_locations','=', False),]}"
+                        name="ParentSettings" string="Parent settings">
+                        <group name="ParentSettingsgroup"/>
+                    </page>
+             </xpath>
+                 
+                    
+         </field>
+                     
+        </record> 
+                  
+    </data>
+</openerp>
