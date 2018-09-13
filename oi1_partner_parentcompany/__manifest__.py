@@ -6,6 +6,7 @@
         """,
     'author': "OntwikkelingInEenvoud (Remko Strating)",
     'website': "http://www.oi1.nl",
+	'images': ['static/description/Defining a company as a subsidiary.JPG'],
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
