@@ -7,6 +7,7 @@
         """,    
     'author': "OntwikkelingInEenvoud (Remko Strating)",
     'website': "http://www.oi1.nl",
+    'images': ['static/description/Set Invoice status salesorder to invoiced wizard.png'],
     'category': 'Sale',
     'version': '0.2',
     'license': 'LGPL-3',
