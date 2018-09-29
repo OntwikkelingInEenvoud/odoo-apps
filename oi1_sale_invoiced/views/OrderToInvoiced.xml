@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<openerp>
+    <data>
+    
+    <record model="ir.ui.view" id="oi1_sale_invoiced.set_saleorder_wizard_form"> 
+            <field name="name">oi1_sale_invoiced.set_saleorder_wizard_form</field> 
+            <field name="model">oi1_sale_invoiced.oi1_ordertoinvoiced_wizard</field>
+            <field name="priority"  eval="16"  /> 
+            <field name="arch" type="xml" > 
+                <form string="Set saleorder to invoiced"> 
+                                   
+                    <group>
+                        <field name="order_id" />
+                        <field name="reason" required="True" />                    
+                    </group>          
+                                    
+                    <footer> 
+                            <button name="do_set_to_invoiced" string="do_set_to_invoiced" type="object" />
+                            <button string="Cancel" class="oe_link" special="cancel"/>
+                    </footer>                    
+                </form>
+            </field>    
+        </record>
+        
+     <act_window id="oi1_sale_invoiced.set_saleorder_wizard_form_launch_the_wizard"
+            name="Set saleorder to invoiced"
+            src_model="sale.order"
+            res_model="oi1_sale_invoiced.oi1_ordertoinvoiced_wizard"
+            view_mode="form"
+            target="new"
+            context="{'default_order_id':active_id}"
+            key2="client_action_multi"/>
+        
+    </data>
+</openerp>

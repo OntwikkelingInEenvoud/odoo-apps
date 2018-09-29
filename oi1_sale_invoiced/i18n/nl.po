@@ -1,0 +1,95 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * oi1_sale_invoiced
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-29 09:33+0000\n"
+"PO-Revision-Date: 2018-09-29 09:33+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: oi1_sale_invoiced
+#: model:ir.ui.view,arch_db:oi1_sale_invoiced.set_saleorder_wizard_form
+msgid "Cancel"
+msgstr "Annuleren"
+
+#. module: oi1_sale_invoiced
+#: model:ir.model.fields,field_description:oi1_sale_invoiced.field_oi1_sale_invoiced_oi1_ordertoinvoiced_wizard_create_uid
+msgid "Created by"
+msgstr "Aangemaakt door"
+
+#. module: oi1_sale_invoiced
+#: model:ir.model.fields,field_description:oi1_sale_invoiced.field_oi1_sale_invoiced_oi1_ordertoinvoiced_wizard_create_date
+msgid "Created on"
+msgstr "Aangemaakt op"
+
+#. module: oi1_sale_invoiced
+#: model:ir.model.fields,field_description:oi1_sale_invoiced.field_oi1_sale_invoiced_oi1_ordertoinvoiced_wizard_display_name
+msgid "Display Name"
+msgstr "Weergave naam"
+
+#. module: oi1_sale_invoiced
+#: model:ir.model.fields,field_description:oi1_sale_invoiced.field_oi1_sale_invoiced_oi1_ordertoinvoiced_wizard_id
+msgid "ID"
+msgstr "ID"
+
+#. module: oi1_sale_invoiced
+#: model:ir.model.fields,field_description:oi1_sale_invoiced.field_oi1_sale_invoiced_oi1_ordertoinvoiced_wizard___last_update
+msgid "Last Modified on"
+msgstr "Laatst gewijzigd op"
+
+#. module: oi1_sale_invoiced
+#: model:ir.model.fields,field_description:oi1_sale_invoiced.field_oi1_sale_invoiced_oi1_ordertoinvoiced_wizard_write_uid
+msgid "Last Updated by"
+msgstr "Laatst bijgewerkt door"
+
+#. module: oi1_sale_invoiced
+#: model:ir.model.fields,field_description:oi1_sale_invoiced.field_oi1_sale_invoiced_oi1_ordertoinvoiced_wizard_write_date
+msgid "Last Updated on"
+msgstr "Laatst bijgewerkt op"
+
+#. module: oi1_sale_invoiced
+#: model:ir.actions.act_window,name:oi1_sale_invoiced.set_saleorder_wizard_form_launch_the_wizard
+#: model:ir.ui.view,arch_db:oi1_sale_invoiced.set_saleorder_wizard_form
+msgid "Set saleorder to invoiced"
+msgstr "Zet de verkooporder op gefactureerd"
+
+#. module: oi1_sale_invoiced
+#: model:ir.model,name:oi1_sale_invoiced.model_oi1_sale_invoiced_ek_ordertoinvoiced_wizard
+#: model:ir.model,name:oi1_sale_invoiced.model_oi1_sale_invoiced_oi1_ordertoinvoiced_wizard
+msgid "Set sales order to invoiced wizard"
+msgstr "Verkooporders handmatig op gefactureerd zetten"
+
+#. module: oi1_sale_invoiced
+#: code:addons/oi1_sale_invoiced/models/OrderToInvoiced.py:19
+#, python-format
+msgid "This wizard will only work on salesorder with the state to invoice."
+msgstr "Alleen verkooporders met de status to factureren worden naar gefactureerd gezet"
+
+#. module: oi1_sale_invoiced
+#: code:addons/oi1_sale_invoiced/models/OrderToInvoiced.py:22
+#, python-format
+msgid "This wizard will only work when every saleorderline has a least one invoice"
+msgstr "Er dient tenminste 1 factuur te zijn voor iedere verkoopregel"
+
+#. module: oi1_sale_invoiced
+#: model:ir.ui.view,arch_db:oi1_sale_invoiced.set_saleorder_wizard_form
+msgid "do_set_to_invoiced"
+msgstr "Zet op gefactureerd"
+
+#. module: oi1_sale_invoiced
+#: model:ir.model.fields,field_description:oi1_sale_invoiced.field_oi1_sale_invoiced_oi1_ordertoinvoiced_wizard_reason
+msgid "reason"
+msgstr "Reden"
+
+#. module: oi1_sale_invoiced
+#: model:ir.model.fields,field_description:oi1_sale_invoiced.field_oi1_sale_invoiced_oi1_ordertoinvoiced_wizard_order_id
+msgid "sales order"
+msgstr "Verkooporder"
